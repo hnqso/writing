@@ -95,16 +95,11 @@ One less CSS file, everything in the same place. One less thing to setup in Webp
 
 Styled-components [isn't the same thing as inline styles](http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/). It does generate the stylesheet with unique classes.
 
-<div class="image">
-  <img src="/assets/images/styled-components-devtools.png" width="85%" alt="DevTools" />
-</div>
-
 ## Tooling support
 
 Syntax highlight, auto-complete and lint support for [Atom](https://github.com/gandm/language-babel/blob/master/CHANGELOG.md#2520), [Visual Code](https://github.com/styled-components/vscode-styled-components) and [Sublime Text](https://github.com/styled-components/styled-components/issues/69).
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">🔥 Autocompletion for CSS inside styled-components is now implemented in Atom!<a href="https://t.co/SLPSVbPmwg">https://t.co/SLPSVbPmwg</a> <a href="https://t.co/eo1gWfVByx">pic.twitter.com/eo1gWfVByx</a></p>&mdash; Max Stoiber (@mxstbr) <a href="https://twitter.com/mxstbr/status/826840687127752705">February 1, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Theming
 
@@ -187,8 +182,6 @@ const Button = styled.div`
 `;
 ```
 
-{% include demo.html js="styled-color-functions" %}
-
 You can pick any other library to get advanced functionalies i.e. [bezier interpolation](gka.github.io/chroma.js/#chroma-bezier).
 
 ```js
@@ -207,8 +200,6 @@ const Box = styled.div`
     );
 `;
 ```
-
-{% include demo.html js="styled-color-bezier" %}
 
 ## Gotchas
 
@@ -323,13 +314,6 @@ It's going to be hard to go back and write things in the traditional way.
 
 - [Styled components 💅  —  Production Patterns](https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.ehbtslz19)
 - [Enforcing best practices in component-based systems](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/)
-
-{% assign url = page.url | prepend: site.url %}
-<a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{url}}&via=healves82" class="share">
-  <i class="icon"><svg data-icon="twitter" viewBox="0 0 32 32" style="fill:currentcolor">
-    <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>
-  </svg></i> <span>Share this on Twitter</span>
-</a>
 
 ---
 
